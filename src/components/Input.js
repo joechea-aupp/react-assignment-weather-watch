@@ -12,9 +12,9 @@ const Input = ({ label, onInput, inputRef }) => {
 };
 
 Input.propTypes = {
-  label: PropTypes.string.isRequired,
-  onInput: PropTypes.func,
-  inputRef: PropTypes.object,
+  label: PropTypes.string.isRequired, // label is use to show label of input
+  onInput: PropTypes.func, // onInput is a function which is called when input value is changed, take input from input field to parent state
+  inputRef: PropTypes.object, // inputRef is a reference of input field, and it is used to focus on input field
 };
 
 export default Input;
