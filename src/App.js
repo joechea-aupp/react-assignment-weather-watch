@@ -9,7 +9,7 @@ class App extends Component {
   state = {
     searchResults: [],
     error: false,
-    isLoading: true,
+    isLoading: false,
     selectedLocId: 0,
     tempUnits: "C",
     weatherData: {},
